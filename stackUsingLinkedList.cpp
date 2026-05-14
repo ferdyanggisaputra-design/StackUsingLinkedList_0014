@@ -13,3 +13,11 @@ class Node
         next = NULL;
     }
 };
+
+// stack class
+class stack
+{
+private:
+    Node *top;
+public:
+    stack()
