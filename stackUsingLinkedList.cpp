@@ -21,3 +21,8 @@ private:
     Node *top;
 public:
     stack()
+    {
+        top = NULL;
+    }
+
+     int push(int value)
